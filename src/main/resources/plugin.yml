@@ -1,0 +1,7 @@
+name: EarthWrapper
+version: ${project.version}
+main: plugins.jackburkhardt.com.EarthWrapper
+api-version: 1.16
+authors: [ TwelvePointFive ]
+description: Plugin to make flat maps continuous.
+website: https://jackburkhardt.com
