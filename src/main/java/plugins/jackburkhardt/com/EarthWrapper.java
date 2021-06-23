@@ -3,7 +3,10 @@ package plugins.jackburkhardt.com;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
+import org.bukkit.entity.Creeper;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
@@ -16,7 +19,7 @@ public final class EarthWrapper extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
+        getServer().getPluginManager().registerEvents(new Listeners(), this);
     instance = this;
     saveDefaultConfig();
 
