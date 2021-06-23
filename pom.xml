@@ -6,14 +6,14 @@
 
     <groupId>plugins.jackburkhardt.com</groupId>
     <artifactId>earth-wrapper</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.4</version>
     <packaging>jar</packaging>
 
     <name>Earth Wrapper</name>
 
     <description>Plugin to make flat maps continuous.</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>16</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <url>https://jackburkhardt.com</url>
